@@ -1,0 +1,57 @@
+/*
+Plugin Name: TCVN Accordion Widget
+Plugin URI: http://VinaThemes.biz
+Description: A widget that show posts with many choose to display.
+Version: 1.0
+Author: VinaThemes
+Author URI: http://VinaThemes.biz
+Author email: mr_hiennc@yahoo.com
+Demo URI: http://VinaDemo.biz
+Forum URI: http://laptrinhvien-vn.com
+License: GPLv3+
+*/
+
+#tcvn-accordion-widget h3.accordion-title {
+	background: none repeat scroll 0 0 #F2F2F2;
+    border-radius: 5px 5px 5px 5px;
+    color: #0081B2;
+    cursor: pointer;
+    margin: 0 0 5px;
+    padding: 10px 0;
+}
+#tcvn-accordion-widget h3.accordion-title.active {
+	margin: 0;
+	border-radius: 5px 5px 0px 0px;
+	color: #8DA52D;
+	border-bottom: 1px solid #8DA52D;
+}
+#tcvn-accordion-widget h3.accordion-title.active span {
+	background: url("../images/open.png") no-repeat scroll 0 0 transparent;
+    margin-left: 5px;
+    padding-left: 25px;
+}
+#tcvn-accordion-widget h3.accordion-title span {
+	background: url("../images/close.png") no-repeat scroll 0 0 transparent;
+    margin-left: 5px;
+    padding-left: 25px;
+}
+#tcvn-accordion-widget div.accordion-description {
+	background: none repeat scroll 0 0 #F2F2F2;
+    border-radius: 0 0 5px 5px;
+    font-size: 95%;
+    line-height: 18px;
+    margin: 0 0 5px;
+    padding: 10px 20px;
+}
+#tcvn-accordion-widget .post-extra {
+	margin-top: 10px;
+	padding: 10px 0 0 0;
+	border-top: 1px solid #8DA52D;
+	font-size: 90%;
+}
+#tcvn-accordion-widget .post-extra .comment {
+	float: left;
+}
+#tcvn-accordion-widget .post-extra .readmore {
+	float: right;
+}

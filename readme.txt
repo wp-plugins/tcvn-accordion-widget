@@ -30,6 +30,7 @@ Features:
 
 Useful links:
 
+- Template demo: http://themes.vinademo.biz/?template=vina_builder
 - Live demo: http://plugins.vinademo.biz/tcvn-accordion-widget/
 - Forum: http://vinaforum.biz/free-plugins/137-wordpress-accordion-widget.html
 - Download: http://vinathemes.biz/free-plugins/item/9-wordpress-accordion-widget.html
